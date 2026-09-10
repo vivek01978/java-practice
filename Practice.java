@@ -40,18 +40,95 @@ class Practice{
         //     }
         // }
         
-        // Q--6 
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int sum = 0;
-        for (int i = 0; i<=n; i++){
-            if(i%2==0){
-                sum = i+sum;
-                System.out.println(sum);
+        // Q--6 find the sum of all even numbers from 1 to n
+       // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int sum = 0;
+        // for (int i = 0; i<=n; i++){
+        //     if(i%2==0){
+        //         sum = i+sum;
+        //         System.out.println(sum);
+        //     }
+        // }
+
+        // Q--7 find the sum of all odd numbers from 1 to n
+
+        // Scanner sc = new Scanner(System.in);
+
+        // int n = sc.nextInt();
+        // int sum = 0;
+
+        // for (int i = 1; i <= n; i++) {
+        //     if (i % 2 != 0) {
+        //         sum = sum + i;
+        //     }
+        // }
+
+        // System.out.println(sum);
+
+        // Q--8 print the multiplication table of a given number n
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // for(int i=1; i<=10; i++){
+        //     System.out.println(n + " x " + i +" = "+n*i);
+        // }
+
+        // Q--9 check whether a number is positive , negative or zero
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // if(n>0){
+        //     System.out.println("Positive");
+
+        // }else if (n<0){
+        //     System.out.println("negative");
+        // }else{
+        //     System.out.println("Zero");
+        // }
+
+        // Q -10 find the larger number of two numbers
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // if(a>b){
+            
+        //     System.out.println(a + " is larger");
+        // }else{
+            
+        //     System.out.println(b + " is larger");
+        // }
+
+        // Q-11 find the largest number of three numbers using if-else
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt ();
+        // int b = sc.nextInt ();
+        // int c = sc.nextInt();
+        // if(a>b && a>c){
+        //     System.out.println(a + " is largest");
+        // }else if(b>a && b>c){
+        //     System.out.println(b+" is largest");
+        // }else{
+        //     System.out.println(c+" is largest");
+        // }
+
+        // Q-12 find the smallest of three numbers using if-else
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int c = sc.nextInt();
+        // if(a<b && a<c){
+        //     System.out.println(a + "is smallest");
+        // }else if(b<a && b<c){
+        //     System.out.println(b+" is smallest");
+        // }else{
+        //     System.out.println(c+" is smallest");
+        // }
+
+        // Q-13
 
 
-            }
-        }
+
+
+        
 
         
     }
