@@ -123,13 +123,72 @@ class Practice{
         //     System.out.println(c+" is smallest");
         // }
 
-        // Q-13
+        // Q-13 check whether a number is divisible by both 3 and 5
+        // Scanner sc = new Scanner(System.in);
+        // int v = sc.nextInt();
+        // if(v%3==0 && v%5==0){
+        //     System.out.println("v number is divisible by 3 and 5");
+        // }else{
+        //     System.out.println("v number is not divisible by 3 and 5");
+
+        // }
+
+        // Q--14 check whether a number is divisible by 3 and 5
+        // Scanner sc = new Scanner(System.in);
+        // int x = sc.nextInt();
+        // if(x%3==0 || x%5==0){
+        //     System.out.println("x  is divisible by 3 or 5");
+        // }else{
+        //     System.out.println("x is not divisible by 3 or 5");
+        // }
+
+        // Q--15 check whether a number lies between 10 to 50 
+        // Scanner sc = new Scanner(System.in);
+        // int y = sc.nextInt();
+        // if(y>10 && y<50){
+        //     System.out.println(y + " lies between 10 to 50");
+
+        // }else if(y<10 ){
+        //     System.out.println(y + " is less than 10");
+        // }else{
+        //     System.out.println(y + " is greater than 50");
+        // }
+
+        // Q--16 print number between 1 to 100 which are divisible by both 3 and 5
+        // for(int i = 1 ; i<=100 ; i++){
+        //     if(i%3==0 && i%5==0){
+        //         System.out.println(i);
+        //     }
+        // }
+
+        // Q--17 count number between 1 to N that are even and divivsible by 3
+        Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int count = 0;
+        // for(int i =1 ; i<=n ; i++){
+        //     if(i%2==0 && i%3==0){
+        //         count++;
+        //     }
+        // }
+        // System.out.println("Count of even numbers between 1 to " + n + " that are divisible by 3 is " + count);
 
 
-
-
+        for(int i =1 ; i<=5 ; i++){
+            for(int j = 1; j <=i ; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
         
 
-        
-    }
+
+
+
+
+
+
+    }        
 }
+
+
+
