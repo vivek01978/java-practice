@@ -162,7 +162,7 @@ class Practice{
         // }
 
         // Q--17 count number between 1 to N that are even and divivsible by 3
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         // int n = sc.nextInt();
         // int count = 0;
         // for(int i =1 ; i<=n ; i++){
@@ -172,13 +172,27 @@ class Practice{
         // }
         // System.out.println("Count of even numbers between 1 to " + n + " that are divisible by 3 is " + count);
 
+        // Q--18 count the numberof digits in a number
+        // int n  = 123456;
+        // int count  =0 ;
+        // while (n>0){
+        //     n = n/10;
+        //     count++;
 
-        for(int i =1 ; i<=5 ; i++){
-            for(int j = 1; j <=i ; j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        // }
+        // System.out.println(count);
+
+        // Q--19 find the sum of digits of a number
+        // int n = 123456789;
+        // int sum =0;
+        // while(n>0){
+        //     sum++;
+        // }
+        // System.out.println(sum);
+
+        
+
+
         
 
 
