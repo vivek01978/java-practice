@@ -1,4 +1,3 @@
-import java.util.*;
 class Practice{
     public static void main(String[] args) {
 
@@ -190,16 +189,28 @@ class Practice{
         // }
         // System.out.println(sum);
 
-        
+        // Q--20 find the productof digit of a number
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int product = 1;
+        // while(n>0){
+        //     int digit = n%10;
+        //     product = product * digit;
+        //     n = n/10;
+        // }
+        // System.out.println("product = " + product);
 
-
-        
-
-
-
-
-
-
+        // Q--21 find the largest  digit in a number
+        int a =12543;
+        int largest = 0;
+        while(a>0){
+            int digit = a % 10;
+            if(digit>largest){
+                largest = digit;
+            }
+            a = a/10;
+        }
+        System.out.println(largest);
 
     }        
 }

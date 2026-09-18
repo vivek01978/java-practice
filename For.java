@@ -45,22 +45,33 @@ class For{
         //    System.out.println(i);
         // }
 
-         // Q--19 find the sum of digits of a number
-        // int a = 12345;
-        // int summ = 0;
-        // while(a>0){
-        //     summ++;
-        // }
-        // System.out.println(summ);
+         // Q-- find the sum of digits of a number
+        //  int a = 123456;
+        //  int sum = 0;
+        //  while(a>sum){
+        //     sum++;
+        //  }
+        //  System.out.print(sum);
 
-        // Q--20 find the product digit in a number.
-        int n = sc.nextInt();
-        int product = 1;
-        while(n>0){
-            int digit = n % 10;
-            product = product * digit;
-            n = n*10;
-        }
-        System.out.println(n);
+
+      
+
+        // Q--find the product digit in a number.
+        // int a = 12345;
+        // int product = 1;
+        // while(a>0){
+        //     int digit = a %10;
+        //     product = digit * product;
+        //     a = a/10;
+        // }
+        // System.out.println("product= "+ product);
+
+        
+
+
+    
+
+        
+
     }        
 }
