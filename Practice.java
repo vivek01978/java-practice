@@ -201,16 +201,41 @@ class Practice{
         // System.out.println("product = " + product);
 
         // Q--21 find the largest  digit in a number
-        int a =12543;
-        int largest = 0;
-        while(a>0){
-            int digit = a % 10;
-            if(digit>largest){
-                largest = digit;
-            }
-            a = a/10;
-        }
-        System.out.println(largest);
+        // int a = 11224455;
+        // int largest = 0;
+        // while(a>0){
+        //     int digit = a % 10;
+        //     if(digit>largest){
+        //         largest = digit;
+        //     }a = a/10;
+        // }
+        // System.out.println(largest);
+
+        // Q--22 find the smallest digit in a number.
+        // int a = 123456789;
+        // int smallest = 9;
+        // while(a>0){
+        //     int digit = a%10;
+        //     if(digit< smallest){
+        //         smallest= digit;
+        //     }
+        //     a = a/10;
+        // }
+        // System.out.println(smallest);
+
+        // Q--23 count the number of even digit in a number.
+        // int a =123456789;
+        // int even = 0;
+        // while(a>0){
+        //     int digit = a%10;
+        //     if(digit%2==0){
+        //         even++;
+
+        //     }
+        //     a = a/10;
+        // }
+        // System.out.println(even);
+        
 
     }        
 }
