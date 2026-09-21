@@ -3,19 +3,19 @@ import java.util.*;
 class Array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int rows = sc.nextInt();
-        int cols = sc.nextInt();
-        int numbers[][] = new int [rows][cols] ;
-        for(int i = 0 ; i<rows ; i++){
-            for(int j= 0 ; j<cols ; j++){
-                numbers[i][j] =sc.nextInt();
-            }
-        }    
-        int x = sc.nextInt();
-        for(int i = 0 ; i<rows ; i++){
-            for(int j = 0 ; j<cols ; j++)
-                System.out.println(" x if found at location of (" + i + ", "+ j +")");
-        }    
+        // int rows = sc.nextInt();
+        // int cols = sc.nextInt();
+        // int numbers[][] = new int [rows][cols] ;
+        // for(int i = 0 ; i<rows ; i++){
+        //     for(int j= 0 ; j<cols ; j++){
+        //         numbers[i][j] =sc.nextInt();
+        //     }
+        // }    
+        // int x = sc.nextInt();
+        // for(int i = 0 ; i<rows ; i++){
+        //     for(int j = 0 ; j<cols ; j++)
+        //         System.out.println(" x if found at location of (" + i + ", "+ j +")");
+        // }    
 
         // int rows = sc.nextInt();
         // int columns = sc.nextInt();
@@ -73,6 +73,15 @@ class Array {
         //     System.out.println(marks[i]);
         // }
         // System.out.println(markss + marks[0]);
+
+        int marks[]= new int[3];
+        marks[0] = 34;
+        marks[1]= 55;
+        marks[2] =99;
+        System.out.println(marks[0]);
+
+        int number[] = {1,2,34,5,6,7,8,8};
+        System.out.println(number[0]);
 
 
 

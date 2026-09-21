@@ -7,5 +7,10 @@ class TimeComplexity{
             
                 System.out.println(i);  
         }  
+        for(int j = 0 ; j<=n ; j++){
+            for(int z = 0; z<=n ; z++){
+                System.out.println("hello");
+            }
+        }
     }
 }
