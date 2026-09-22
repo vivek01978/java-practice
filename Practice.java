@@ -235,6 +235,9 @@ class Practice{
         //     a = a/10;
         // }
         // System.out.println(even);
+
+        // Q--24 count the number of even digits in a number
+        
         
 
     }        
