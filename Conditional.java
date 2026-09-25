@@ -80,19 +80,24 @@ class Conditional{
         //     System.out.println("odd");
         // }
 
-        System.out.print("enter number a:");
-        int a = sc.nextInt();
-        System.out.print("enter number b:");
-        int b = sc.nextInt();
-        System.out.print("enter number c:");
-        int c = sc.nextInt();
-        if(a>b && a>c){
-                System.out.println("a is largest no.");
-        }else if (b>a && b>c){
-                System.out.println("b is largest no.");
-        }else{
-                System.out.println("c is largest no.");
-        }
+
+        // Q-- find a largest number 
+        // System.out.print("enter number a:");
+        // int a = sc.nextInt();
+        // System.out.print("enter number b:");
+        // int b = sc.nextInt();
+        // System.out.print("enter number c:");
+        // int c = sc.nextInt();
+        // if(a>b && a>c){
+        //         System.out.println("a is largest no.");
+        // }else if (b>a && b>c){
+        //         System.out.println("b is largest no.");
+        // }else{
+        //         System.out.println("c is largest no.");
+        // }
+        
+        // Q-- grade calculator
+
 
 
 
