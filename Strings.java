@@ -50,11 +50,6 @@ class Strings{
         System.out.println(name5);
 
         
-
-
-
-
-
         // String name = "vivek";
         // String name1 = "kumar";
         // String name2 = name + " " + name1;
@@ -82,13 +77,22 @@ class Strings{
         // System.out.println(name4);
         // System.out.println(name5);
 
+        String name6 = "Deep";
+        String name7 = "Anas";
+        String name8 = new String ("Satyam");
+        String name_sum = name6+ name7+ name8;
+        System.out.println(name6.length());
 
+        System.out.println(name8.charAt(0));
+        System.out.println(name7.compareTo(name6));
+        System.out.println(name_sum);
+        System.out.println(name_sum.length());
+        System.out.println(name_sum.substring(0, 8));
+        setCharAt(0,'A');
+        System.out.println(name7);
 
+        
 
-
-
-        // String name = sc.nextLine();
-        // System.out.println("your name :" + name);
 
     }
 }
