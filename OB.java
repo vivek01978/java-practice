@@ -13,7 +13,7 @@ public class OB {
         int a[]={1,0,0};
         int b[]={4,6};
         int  sizee=a.length;
-        int ans= new int[sizee];
+        int[] ans = new int[ sizee];
         int i=a.length-1;
         int j=b.length-1;
         int k=sizee-1;
