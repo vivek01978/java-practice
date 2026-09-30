@@ -239,6 +239,7 @@ class Practice{
         // Q--24 count the number of even digits in a number
         
         
+        
 
     }        
 }

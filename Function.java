@@ -20,6 +20,7 @@ class Function {
         int b = sc.nextInt();
         printsum(a, b);
         System.out.print(printmultiply(a, b));
+
         
 
   
