@@ -10,16 +10,23 @@ class Function {
     }
 
     // 1--
-    public static void printName(String name){
-        System.out.println(name);
-        return;
+    // public static void printName(String name){
+    //     System.out.println(name);
+    //     return;
+    // }
+    public static int print(int x , int y){
+    int sum = x + y;
+    return sum;
     }
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        printsum(a, b);
-        System.out.print(printmultiply(a, b));
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // printsum(a, b);
+        // System.out.print(printmultiply(a, b));
+
+        print(sum);
+        
 
         
 

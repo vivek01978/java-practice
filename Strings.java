@@ -88,8 +88,37 @@ class Strings{
         System.out.println(name_sum);
         System.out.println(name_sum.length());
         System.out.println(name_sum.substring(0, 8));
-        setCharAt(0,'A');
-        System.out.println(name7);
+        // setCharAt(0,'A');
+        // System.out.println(name7);
+
+
+        // type print
+        System.out.println(name6.getClass().getSimpleName()); /*only type print krta h */
+        System.out.println(name6.getClass());  /* uska type or class pta krna */
+
+
+        // StringBuilder name9 = new StringBuilder("Vivek");
+        // String name10 = "Gupta";
+        // System.out.println(name10.charAt(0));
+        // System.out.println(name10.compareTo(name10));
+        // System.out.println(name10.substring(0,1));
+        // System.out.println(name10.length());
+        // name9.setCharAt(5,'k');
+        // System.out.println(name9);
+        // System.out.println(name9.append("Gupta"));
+
+        StringBuilder name11 = new StringBuilder("VIVEK");
+        name11  = new StringBuilder("Deep");
+        System.out.println(name11.append(" GUPTA"));
+        System.out.println(name11.charAt(0));
+        System.out.println(name11.compareTo(name11));
+        System.out.println(name11.substring(0,1));
+        System.out.println(name11.length());
+
+        
+
+
+
         
 
         
