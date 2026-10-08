@@ -45,8 +45,9 @@ class Recursion {
         // print_a(a);
 
         // Q-- > print factorial of a number n 
-        int n = 5;
+        int n = 10;
         int ans = calcfactorial(n);
+        System.out.println(ans);
 
 
 
