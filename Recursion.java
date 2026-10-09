@@ -23,13 +23,34 @@ class Recursion {
     //     printsum(x+1, i, sum);
     // }
 
-    public static int calcfactorial(int n ){
-        if(n==1 || n==0){
+    // public static int calcfactorial(int n ){
+    //     if(n==1 || n==0){
+    //         return 1;
+    //     }
+    //     int fact_num1  = calcfactorial(n-1);
+    //     int fact_n = n * fact_num1;
+    //     return fact_n;
+    // }
+
+    // public static void printFib(int a , int b , int n){
+    //     if(n==0){
+    //         return;
+    //     }
+    //     int c = a + b;
+    //     System.out.println(c);
+    //     printFib(b,c,n-1);
+    // }
+
+    public static int calcpow(int x , int n){
+        if(n==0){
             return 1;
         }
-        int fact_num1  = calcfactorial(n-1);
-        int fact_n = n * fact_num1;
-        return fact_n;
+        if(x==0){
+            return 0;
+        }
+        int xpownm1 = calcpow(x , n-1);
+        int z = x * xpownm1;
+        return z;
     }
 
 
@@ -45,10 +66,24 @@ class Recursion {
         // print_a(a);
 
         // Q-- > print factorial of a number n 
-        int n = 10;
-        int ans = calcfactorial(n);
+        // int n = 10;
+        // int ans = calcfactorial(n);
+        // System.out.println(ans);
+
+        // Q--> print the fibonacci sequence till  n term
+        // int a = 0 , b = 1;
+        // System.out.println(a);
+        // System.out.println(b);
+        // int n = 10;
+        // printFib(a,b,n-2);
+
+        // Q--> 
+        int x = 2 , n = 5;
+        int ans = calcpow(x,n);
         System.out.println(ans);
 
+
+        
 
 
 

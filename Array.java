@@ -74,14 +74,30 @@ class Array {
         // }
         // System.out.println(markss + marks[0]);
 
-        int marks[]= new int[3];
-        marks[0] = 34;
-        marks[1]= 55;
-        marks[2] =99;
-        System.out.println(marks[0]);
+        // int marks[]= new int[6];
+        // marks[0] = 34;
+        // marks[1]= 55;
+        // marks[2] =99;
+        // marks[3] =99;
+        // marks[4] =99;
+        // marks[5] =95;
 
-        int number[] = {1,2,34,5,6,7,8,8};
-        System.out.println(number[0]);
+        // System.out.println(marks[5]);
+
+        // int number[] = {1,2,34,5,6,7,8,8};
+        // System.out.println(number[0]);
+
+
+        int sum[] = new int[5];
+        sum[0] = 23;
+        sum[1] = 22;
+        sum[2] = 100;
+        System.out.println();
+        System.out.println(sum[0]+sum[1]+sum[2]);
+        
+
+
+
 
 
 
